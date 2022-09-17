@@ -79,11 +79,14 @@ flex: 0 0 33.333%;
     border-bottom: 1px solid white;
     margin-right: 0px;
     font-size: 24px;
- 
-    
-
+    /* text-align: center;
+    vertical-align: middle; */
+    line-height: 55px;
 }
+
 .items--second__item{
+display: block;
+/* box-shadow:  14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
 width: 370px;
 height: 100px;
 background-color: rgb(61, 54, 54);
@@ -91,6 +94,7 @@ background-color: rgb(61, 54, 54);
     border-bottom: 1px solid white;
     margin-right: 0px;
     font-size: 36px;
+    line-height: 100px;
 }
 .items--third__item{
     width: 370px;
@@ -99,7 +103,8 @@ background-color: rgb(61, 54, 54);
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     font-size: 18px;
-    
+    line-height: 50px;
+    transition: 1s;
 }
 .items--others__item{
     width: 370px;
@@ -108,6 +113,7 @@ background-color: rgb(61, 54, 54);
     border-bottom: 1px solid grey;
     color: gray;
     font-size: 18px;
+    line-height: 50px;
 }
 
     
