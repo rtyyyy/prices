@@ -1,6 +1,6 @@
-.price{
+/* .price{
 
-}
+} */
 body{
     background-color: #f5f5f5;
 }
@@ -10,11 +10,11 @@ max-height: 900px;
 margin: auto;
 
 }
-.price__hearder{
+/* .price__hearder{
     
 }
 .price__title{
-}
+} */
 .title{
 text-align: center;
  width: 1170px;
@@ -63,12 +63,12 @@ padding-left: 50px;
 }
 
 
-.items--inside{
+/* .items--inside{ */
 
-}
+/* }
 .items--list__price{
 
-}
+} */
 .items--list__li{ 
     text-align: center;
     list-style-type: none;
@@ -129,4 +129,5 @@ background-color: rgb(61, 54, 54);
 .items--list__li:hover{
     box-shadow: 0 5px 5px 5px rgb(87, 85, 85);
     transform: translate(30px );
+    transition: 1s;
 }
