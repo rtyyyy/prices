@@ -47,16 +47,19 @@ margin-bottom: 140px;
 }
 .pricing__row{
 display: flex;
-max-width: 1500px;
+max-width: 1300px;
 max-height: 900px;
 margin: auto;
+
+/* margin: auto; */
 
 
 }
 .pricing__column{
-
-flex: 0 0 33.333%;
-
+flex: -33.333%;
+/* flex: 0 0 33.333%; */
+/* padding-right:30px; */
+padding-left: 50px;
 }
 
 
@@ -69,6 +72,9 @@ flex: 0 0 33.333%;
 .items--list__li{ 
     text-align: center;
     list-style-type: none;
+    padding: 0;
+   
+    
 
 }
 .items--first__item{ 
@@ -117,3 +123,10 @@ background-color: rgb(61, 54, 54);
 }
 
     
+/* .items--others__item:hover{
+    box-shadow: 0 10px 10px 10px rgb(87, 85, 85);
+} */
+.items--list__li:hover{
+    box-shadow: 0 5px 5px 5px rgb(87, 85, 85);
+    transform: translate(30px );
+}
